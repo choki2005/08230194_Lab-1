@@ -73,7 +73,7 @@ body {
 
 /* Banner */
 .banner {
-    background-color: #1565c0; /* Dark blue */
+    background-color: #0d0d0e; /* Dark blue */
     color: white;
     text-align: center;
     padding: 0.5em;
@@ -97,4 +97,59 @@ body {
 
 .greetings p {
     text-align: justify;
+}
+
+/* Programmes Page Styling */
+.programmes-container {
+    width: 70%;
+    margin: 2em auto;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.breadcrumb a {
+    color: #0d0d0e;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Programme Headings */
+.programmes-container h2 {
+    color: #0f1011;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Programme List */
+.programme-list {
+    list-style: disc;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    color: #186aad;
+    font-size: 15px;
+}
+
+.programme-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.programme-list em {
+    color: #d32f2f;
+    font-style: italic;
 }
